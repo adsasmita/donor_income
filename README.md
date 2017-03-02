@@ -1,12 +1,12 @@
 # donor_income
 
-A machine learning project using [Scikit-learn](http://scikit-learn.org/stable/) Python library
+A machine learning project using [Scikit-learn](http://scikit-learn.org/stable/) Python library to predict income level of potential donors for a charity.
 
 ## Files
 
 To open the main code, simply open [`donor_income.ipynb`](https://github.com/adsasmita/donor_income/blob/master/donor_income.ipynb) on any desktop browser, or you can download and run the cells in a Python 2 environment. The code is presented in a [Jupyter Notebook](https://github.com/jupyter/notebook) / iPython notebook for readability purposes.
 
-Visualization codes are contained in [`visuals.py`](https://github.com/adsasmita/donor_income/blob/master/visuals.py)
+Visualization codes and helper functions are contained in [`visuals.py`](https://github.com/adsasmita/donor_income/blob/master/visuals.py).
 
 ## Overview
 
