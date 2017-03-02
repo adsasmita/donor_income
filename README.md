@@ -10,9 +10,25 @@ Visualization codes are contained in [`visuals.py`](https://github.com/adsasmita
 
 ## Overview
 
-Suppose that we were tasked to identify donors for a charity. The organization decided that potential donors are individuals that have yearly income of more than $50,000. We agreed to approach this task by employing several supervised algorithms to accurately model individuals' income using data collected from the 1994 U.S. Census. We will then choose the best candidate algorithm from preliminary results and further optimize it to best model the data.
+Suppose that we were tasked to identify donors for a charity. The organization decided that potential donors are individuals that have yearly income of more than $50,000. We agreed to approach this task by employing several supervised algorithms to accurately model individuals' income using data collected from the [1994 U.S. Census](https://archive.ics.uci.edu/ml/datasets/Census+Income). We will then choose the best candidate algorithm from preliminary results and further optimize it to best model the data.
 
 Understanding an individual's income can help a non-profit better understand how large of a donation to request, or whether or not they should reach out to begin with. While it can be difficult to determine an individual's general income bracket directly from public sources, we can (as we will see) infer this value from other publically available features.
+
+## Supervised Algorithms Used
+
+The main code implemented three supervised learning algorithms in [Scikit-learn](http://scikit-learn.org/stable/), evaluated the best algorithm that fit the data, then optimized the classifier using parameter optimization [GridSearchCV](http://scikit-learn.org/0.17/modules/generated/sklearn.grid_search.GridSearchCV.html)
+
+The three algorithms considered are: [Gaussian Naive-Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier), [Support Vector Machine](https://en.wikipedia.org/wiki/Support_vector_machine), and [Decision Trees](https://en.wikipedia.org/wiki/Decision_tree).
+
+![title](img/gnb1.png)
+
+![title](img/gnb2.png)
+
+![title](img/svm1.png)
+
+![title](img/svm2.png)
+
+![title](img/dt1.png)
 
 ## Data
 
